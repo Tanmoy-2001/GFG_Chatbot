@@ -16,8 +16,14 @@ def respond(user_message):
     # Your chatbot logic here
     if user_message.lower() == 'hello':
         return "Hi there!"
+    elif user_message.lower() == 'hi':
+        return "Hi , How may I help you!"
+    elif user_message.lower() == 'hey':
+        return "Hi there!"
     elif user_message.lower() == 'how are you?':
         return "I'm just a bot, but thanks for asking!"
+    elif user_message.lower() == 'tell me about yourself':
+        return "I'm a GFG Bot Here for helping you, but thanks for asking!"
     else:
         return "I didn't quite understand that."
 
